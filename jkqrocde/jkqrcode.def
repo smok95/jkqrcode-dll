@@ -1,0 +1,5 @@
+LIBRARY jkqrcode
+EXPORTS
+	jkqrcode_encode @1
+	jkqrcode_encode2 @2
+
