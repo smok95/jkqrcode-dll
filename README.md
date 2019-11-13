@@ -11,10 +11,12 @@ https://code.google.com/archive/p/qrencode-win32/
   
   
 ## Usage  
-> #include "jkqrcode.h"  
-> // 생성할 QRCode 값   
-> char* value = "hello world!";  
-> // QRCode 이미지파일 저장경로  
-> char* outfile = "c:\\temp\\qrcode.png";  
->
-> jkqrcode_encode(value, outfile, -1, -1, -1);  
+```cpp
+#include "jkqrcode.h"  
+// 생성할 QRCode 값   
+char* value = "hello world!";  
+// QRCode 이미지파일 저장경로  
+char* outfile = "c:\\temp\\qrcode.png";  
+
+jkqrcode_encode(value, outfile, -1, -1, -1);  
+```
